@@ -1,0 +1,121 @@
+/* General Styling */
+.App {
+  text-align: center;
+  background-color: #f0f2f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header Styling */
+.App-header {
+  background-color: #1f3b4d;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Main Content Area */
+.content {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+/* Title Styling */
+h1 {
+  color: #2a9d8f;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2{
+  color: #DAA520; /* Goldenrod */
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Subheading Styling */
+h3 {
+  color: #E97451; /* Warm Sienna */
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Input Styling */
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  width: 80%;
+  font-size: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+  outline: none;
+  border-color: #2a9d8f;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  background-color: #2a9d8f;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #21867a;
+}
+
+/* Chart Placeholder */
+.chart-placeholder {
+  margin-top: 30px;
+  padding: 30px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s ease;
+}
+
+.chart-placeholder:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Custom Particle Heading */
+.particle-heading {
+  color: #264653;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Chart Styling */
+canvas {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #264653;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
